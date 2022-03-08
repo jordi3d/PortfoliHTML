@@ -554,12 +554,12 @@
         <div>
             <!-- style="position:absolute; left:500px; top:1200px;"-->
             <h2>In order to receive my Resumé in PDF, fill this form:</h2>
-            <form>
+            <form onsubmit="javascript:enviaEmail()">
                 <label for="nom">Your Name:</label>
                 <input type="text" name="nom" placeholder="Your Name" /><br/>
-                <label for="email">Your Email:&nbsp;&nbsp;</label>
+                <label for="email">Your Email:&nbsp;</label>
                 <input type="email" name="email" placeholder="Your Email" /><br/>
-                <input type="submit" value="Submit" onsubmit="javascript:enviaEmail()" />
+                <input type="submit" value="Submit" />
             </form>
             <a href="javascript:enviaEmail()"><button>Submit2</button></a>
             <br/><br/>
