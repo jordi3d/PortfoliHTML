@@ -1,5 +1,6 @@
 {
-    "name": "portfolio",
+    "homepage": "https://jordi3d.github.io/PortfoliHTML",
+    "name": "portfolihtml",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
