@@ -36,30 +36,41 @@
 </head>
 
 <body>
-    <div id="menu-superior">
-        <a id="home-link" href="home.html" target="frame-destinacio">Jordi Alonso</a
-      >
-      <a id="opcio1" href="sobremi.html" target="frame-destinacio">About me</a>
+    <nav>
+        <div id="menu-superior">
+            <a id="home-link" href="home.html" target="frame-destinacio">Jordi Alonso</a
+        >
+        <a id="opcio1" href="sobremi.html" target="frame-destinacio"
+          >About me</a
+        >
         <a id="opcio2" href="estudis.html" target="frame-destinacio">Studies</a>
-        <a id="opcio3" href="experiencia.html" target="frame-destinacio">Experience</a
-      >
-      <a id="opcio4" href="contacte.html" target="frame-destinacio">Contact</a>
+            <a id="opcio3" href="experiencia.html" target="frame-destinacio">Experience</a
+        >
+        <a id="opcio4" href="contacte.html" target="frame-destinacio"
+          >Contact</a
+        >
         <div id="opcio5">
-            <form action="" class="escull-idioma-form">
-                <select name="idioma" id="escull-idioma-select">
-            <option lang="cat" value="CAT">Català</option>
-            <option lang="es" value="ES">Castellano</option>
-            <option lang="en" value="EN" selected>English</option>
-            <option lang="fr" value="FR">Français</option>
-            <option lang="ru" value="RU">Русский</option>
-            <!-- altres idiomes -->
-          </select>
-            </form>
+          <form action="" class="escull-idioma-form">
+            <select name="idioma" id="escull-idioma-select">
+              <option lang="cat" value="CAT">Català</option>
+              <option lang="es" value="ES">Castellano</option>
+              <option lang="en" value="EN" selected>English</option>
+              <option lang="fr" value="FR">Français</option>
+              <option lang="ru" value="RU">Русский</option>
+              <!-- altres idiomes -->
+            </select>
+          </form>
         </div>
-    </div>
-    <div id="frame-destinacio">
-        <iframe src="home.html" name="frame-destinacio" style="width: 100%; height: 800px"></iframe>
-    </div>
-</body>
-
+      </div>
+    </nav>
+    <main>
+      <div id="frame-destinacio">
+        <iframe
+          src="home.html"
+          name="frame-destinacio"
+          style="width: 100%; height: 800px"
+        ></iframe>
+      </div>
+    </main>
+  </body>
 </html>
