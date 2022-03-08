@@ -3,7 +3,6 @@
 
 <head>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
-    <title>Resumé of Jordi Alonso</title>
     <style>
         @media only screen and (max-width: 1280px) {
             #menu-superior {
@@ -29,11 +28,11 @@
     <link rel="stylesheet" href="styles.css" />
     <script>
         function enviaEmail() {
-            let txt1 = document.getElementByName('nom');
+            let txt1 = document.getElementsByName('nom');
             alert(txt1.nodeValue);
-            let txt2 = document.getElementByName('email');
+            let txt2 = document.getElementsByName('email');
             alert(txt2.nodeValue);
-            window.location.href = `mailto:jordi@synthespian.com?from=${name}&body=Seen on the website&subject=Resumé Jordi Alonso`;
+            window.location.href = `mailto:info@synthespian.net?from=${name}&body=Seen on the website&subject=Resumé Jordi Alonso`;
         }
     </script>
 </head>
@@ -560,7 +559,7 @@
             <form>
                 <label for="nom">Your Name:</label>
                 <input type="text" name="nom" placeholder="Your Name" /><br/>
-                <label for="email">Your Email:</label>
+                <label for="email">Your Email:&nbsp;</label>
                 <input type="email" name="email" placeholder="Your Email" /><br/>
                 <!-- input type="submit" value="Submit" -->
             </form>
